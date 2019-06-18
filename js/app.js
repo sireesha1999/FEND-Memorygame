@@ -5,10 +5,11 @@ var pare = document.getElementsByClassName("deck");
 /*
  * Create a list that holds all of your cards
  */
+
+// declaration of global variables
 var sec = 0;
 var min = 0;
 var hrs = 0;
-
 var chil = document.getElementsByClassName("card");
 var chilList = Array.prototype.slice.call(chil);
 var movementSection = document.getElementById("moves");
