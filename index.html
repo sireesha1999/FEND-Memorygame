@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+<!--    meta tag for responsiveness-->
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Matching Game</title>
   <meta name="description" content="Memory Game">
@@ -21,16 +22,16 @@
     <header>
       <h1>Matching Game</h1>
     </header>
-
+<!--  score panel declaration-->
     <section class="score-panel">
       <ul class="stars">
         <li><i class="fa fa-star"></i></li>
         <li><i class="fa fa-star"></i></li>
         <li><i class="fa fa-star"></i></li>
       </ul>
-
+<!--       tag for deplaying the time from app.js-->
       <span class="moves" id="moves">0</span> Moves &nbsp;&nbsp;<span id="time">00 :: 00 :: 00</span>
-
+<!-- div tag for restarting the file -->
       <div class="restart">
         <a href="#" id="restart" onclick="restart()"><i class="fa fa-repeat"></i>Restart</a>
       </div>
